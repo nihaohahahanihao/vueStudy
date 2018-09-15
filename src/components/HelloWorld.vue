@@ -13,11 +13,11 @@
       </li>
       <li><router-link to="swiper" target="_blank">轮播图</router-link></li>
     </ul>
-    <ul v-for="i in items">
+    <!-- <ul v-for="i in items">
     	<li>{{i.message}}</li>
     	<li>{{i.type}}</li>
     	<li>{{i.time}}</li>
-    </ul>
+    </ul> -->
     <!-- 这里是solt 单个插槽-->
     <solt slot="header">111</solt>
     <!-- 这里是具名插槽 -->
@@ -56,11 +56,11 @@
     <div>
       <router-link to="sponsor">去往成为赞助商页面</router-link>
     </div>
-    <div>
-      <router-link to="biaodanyanzheng">前往表单验证页面</router-link>
-    </div>
         <div>
       <router-link to="yidongduan">前往移动端页面</router-link>
+    </div>
+        <div>
+      <router-link to="vuex">前往Vuex页面</router-link>
     </div>
   </div>
 </template>

@@ -17,7 +17,7 @@ export default {
         'items'
     ],
     created(){
-        console.log("items",this.$props.items)
+        // console.log("items",this.$props.items)
     }
 }
 </script>
