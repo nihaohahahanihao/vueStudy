@@ -7,9 +7,6 @@ import actApp from '@/components/activecomponents/app'
 import actSonOne from '@/components/activecomponents/sonOne'
 import actSonTwo from '@/components/activecomponents/sonTwo'
 import actSonThree from '@/components/activecomponents/sonThree'
-import baoming from '@/components/act/baoming'
-import fabu from '@/components/act/fabu'
-import biaodanyanzheng from '@/components/biaodanyanzheng'
 import yidongduan from '@/components/act/yidongduan'
 import sponsor from '@/components/act/sponsor'
 
@@ -34,20 +31,12 @@ export default new Router({
       	component:sponsor
       },
       {
-      	path:"/baoming",
-      	component:baoming
-      },
-      {
         path:'/biaodanyanzheng',
         component:biaodanyanzheng
       } ,           
       {
       	path:"/swiper",
       	component:swiper
-      },
-      {
-      	path:"/fabu",
-      	component:fabu
       },
       {
         path:"/actApp",
