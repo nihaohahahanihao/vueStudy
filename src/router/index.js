@@ -12,8 +12,6 @@ import fabu from '@/components/act/fabu'
 import biaodanyanzheng from '@/components/biaodanyanzheng'
 import yidongduan from '@/components/act/yidongduan'
 import sponsor from '@/components/act/sponsor'
-import faxian from '@/components/faxian/faxianForm'
-import imgupload from '@/components/faxian/imgupload'
 
 Vue.use(Router)
 
@@ -28,16 +26,8 @@ export default new Router({
       	component:router1
       },
       {
-      	path:"/imgupload",
-      	component:imgupload
-      },
-      {
       	path:"/yidongduan",
       	component:yidongduan
-      },
-      {
-        path:"/faxian",
-        component:faxian
       },
       {
       	path:"/sponsor",
@@ -50,7 +40,7 @@ export default new Router({
       {
         path:'/biaodanyanzheng',
         component:biaodanyanzheng
-      } ,
+      } ,           
       {
       	path:"/swiper",
       	component:swiper
@@ -75,6 +65,6 @@ export default new Router({
         ]
       }
       ]
-
-
+    
+    
 })
