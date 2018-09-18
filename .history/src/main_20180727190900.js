@@ -5,10 +5,6 @@ import App from './App'
 import router from './router'
 import $ from 'jquery'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
-
-import VueQriously from 'vue-qriously'
-Vue.use(VueQriously)
-
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

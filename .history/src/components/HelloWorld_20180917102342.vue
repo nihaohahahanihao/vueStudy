@@ -62,9 +62,6 @@
         <div>
       <router-link to="vuex">前往Vuex页面</router-link>
     </div>
-    <div>
-      <router-link to="zcs">前往二维码插件页面</router-link>
-    </div>
   </div>
 </template>
 
@@ -95,7 +92,7 @@ import scopedSlot from "@/components/scopedSlot"
       return e.json();
     }).then((e) => {
       console.log(e)
-
+ 			
       this.items = e.items
     }
       )

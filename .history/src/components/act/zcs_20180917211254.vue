@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import VueQriously from 'vue-qriously'
 export default {
   name:'vueQriously',
 }

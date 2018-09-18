@@ -29,10 +29,6 @@ export default new Router({
       	component:vuex
       },
       {
-      	path:"/zcs",
-      	component:zcs
-      },
-      {
       	path:"/yidongduan",
       	component:yidongduan
       },

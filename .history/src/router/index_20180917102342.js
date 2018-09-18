@@ -10,7 +10,6 @@ import actApp from '@/components/activecomponents/app'
 import yidongduan from '@/components/act/yidongduan'
 import sponsor from '@/components/act/sponsor'
 import vuex from '@/components/Vuex/vuex'
-import zcs from '@/components/act/zcs'
 
 Vue.use(Router)
 
@@ -27,10 +26,6 @@ export default new Router({
       {
       	path:"/vuex",
       	component:vuex
-      },
-      {
-      	path:"/zcs",
-      	component:zcs
       },
       {
       	path:"/yidongduan",
@@ -60,6 +55,6 @@ export default new Router({
         // ]
       }
       ]
-
-
+    
+    
 })
